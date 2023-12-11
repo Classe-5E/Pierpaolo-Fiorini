@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pier 5E</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">F.P. Orologi</h1>
+        
+        <ul class="menu">
+          <li><a href="index.html">home</a></li>
+          <li>about</li>
+          <li>projects</li>
+        </ul>
+    </header>
+    <form>
+        <h2>LOGIN</h2>
+        <div class="row">
+
+            <div>
+                <label for="fname">Nome</label>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div>
+                <label for="Iname">Cognome</label>
+                <input type="text" id="lname" name="lname">
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <label for="fname">Data</label>
+                <input type="date"><br>
+            </div>
+            <div>
+
+                <label for="lang">Provincia</label>
+                <select name="languages" id="lang">
+                    <option value="Frosinone">Frosinone</option>
+                    <option value="Roma">Roma</option>
+                    <option value="Latina">Latina</option>
+                    <option value="Rieti">Rieti</option>
+                    <option value="viterbo">Viterbo</option>
+                </select>
+            </div>
+            <div>
+
+                <label for="lang">Comune</label>
+                <select name="languages" id="lang">
+                    <option value="Frosinone">Veroli</option>
+                    <option value="Roma">Frosinone</option>
+                    <option value="Latina">Sora</option>
+                    <option value="Rieti">Alatri</option>
+                    <option value="viterbo">Monte</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+
+            <label for="fname">Password</label>
+            <input type="password">
+        </div>
+        <div class="sesso">
+
+            <label for="fname">Sesso</label>
+            <div class="row">
+                <input type="radio" id="html" name="fav_language">
+                <label for="html">Maschio</label>
+            </div>
+            <div class="row">
+                <input type="radio" id="css" name="fav_language">
+                <label for="css">Femmina</label>
+            </div>
+        </div>
+        <div class="row">
+            <label for="fname">Accetta termini e condizioni</label>
+            <input type="checkbox" id="vehiclel">
+        </div>
+        <div >
+            <label for="documento">Copia del documento:</label>
+            <input type="file" id="documento" value="copia del documento">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
